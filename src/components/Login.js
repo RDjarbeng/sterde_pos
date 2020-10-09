@@ -1,14 +1,14 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 
 function Login() {
 /* todo: track state, change to controlled form */
     return (
         <div className='d-flex justify-content-center flex-column mx-auto mt-5'>
             
-            <form className='LoginForm' className='w-25 mx-auto shadow p-3 bg-light rounded-lg'>
+            <form className=' mx-auto shadow p-4 bg-light rounded-lg'>
                 <div className=' mx-auto bg-light'>
-                    <h2 className='display-4'>Sign In</h2>
+                    <h2 className='text-lg'>Sign In</h2>
                     <p>Login to your Account</p>
                 </div>
                 <div className='form-group ' >
@@ -20,7 +20,9 @@ function Login() {
                     <input type='text' className='form-control' placeholder='Password' />
                 </div>
                 <button className="btn btn-outline-primary btn-block">Login</button>
-                
+                <div className='mt-2'>
+                    <span className='text-secondary'>Dont have an account?<Link to='/signup' > Register</Link> </span>
+                </div>
             </form>
         </div>
     );

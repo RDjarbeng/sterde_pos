@@ -28,7 +28,7 @@ function SignUp() {
                     <input type='checkbox' className='' /><label> I have read and agree to Sterde terms and conditions</label>
                 </div>
                 <button className="btn btn-outline-primary btn-block">Register</button>
-                <div>
+                <div className='mt-2'>
                     <span className='text-secondary'>Have an account?<Link  to='/login' > Sign in</Link> </span>
                 </div>
             </form>
