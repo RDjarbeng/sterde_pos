@@ -2,12 +2,13 @@ import React from 'react';
 
 
 function Login() {
+/* todo: track state, change to controlled form */
     return (
         <div className='d-flex justify-content-center flex-column mx-auto mt-5'>
             
-            <form className='LoginForm' className='w-50 mx-auto shadow p-4 bg-light rounded-lg'>
-                <div className='w-50 mx-auto bg-light'>
-                    <h2 className='display-2'>Sign In</h2>
+            <form className='LoginForm' className='w-25 mx-auto shadow p-3 bg-light rounded-lg'>
+                <div className=' mx-auto bg-light'>
+                    <h2 className='display-4'>Sign In</h2>
                     <p>Login to your Account</p>
                 </div>
                 <div className='form-group ' >
