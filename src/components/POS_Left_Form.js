@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Form(params) {
+export function Form() {
     return (
         <form className=' shadow  bg-warning  rounded-lg'>
             <p>Default: client</p>
@@ -48,4 +48,3 @@ function Form(params) {
     )
 }
 
-export default Form

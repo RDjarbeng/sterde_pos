@@ -5,7 +5,7 @@ import Nav from './components/Nav';
 import PageNotFound from './components/PageNotFound';
 import Footer from './components/Footer';
 import SignUp  from './components/SignUp';
-import Home  from './components/Home';
+import POS  from './components/POS';
 import './css/bootstrap/bootstrap.min.css'
 import './App.css';
 
@@ -18,7 +18,7 @@ function App() {
           <Route path='/' exact component={Login} />          
           <Route path='/login' exact component={Login} />          
           <Route path='/signup' exact component={SignUp} />          
-          <Route path='/home' exact component={Home} />          
+          <Route path='/home' exact component={POS} />          
           <Route path='/'  component={PageNotFound } />          
         </Switch>
         <Footer />
