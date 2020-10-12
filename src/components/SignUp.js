@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import TextField from "@material-ui/core/TextField";
 
 function SignUp() {
     /* todo: track state, change to controlled form */
@@ -12,17 +13,17 @@ function SignUp() {
                     <p>Let's create your Account</p>
                 </div>
                 <div className='form-group ' >
-                    <input type='text' className='form-control' placeholder='Email' required />
+                    <TextField type='text' className='form-control' label='Email' required />
                     
                 </div>
 
                 <div className='form-group ' >
-                    <input type='password' className='form-control' placeholder='Password' required />
+                    <TextField type='password' className='form-control'label='Password' required />
                     
                 </div>
                 
                 <div className='form-group ' >
-                    <input type='text' className='form-control' placeholder='Confirm your Password' />
+                    <TextField type='text' className='form-control' label='Confirm your Password' />
                 </div>
                 <div className='form-group ' >
                     <input type='checkbox' className='' /><label> I have read and agree to Sterde terms and conditions</label>

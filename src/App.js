@@ -9,11 +9,14 @@ import POS  from './components/POS';
 import './css/bootstrap/bootstrap.min.css'
 import './App.css';
 
+
+
 function App() {
   return (
     <Router>
     <div className="App">      
         <Nav />
+        
         <Switch>          
           <Route path='/' exact component={Login} />          
           <Route path='/login' exact component={Login} />          

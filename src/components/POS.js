@@ -3,9 +3,7 @@ import { Form as LeftForm } from './POS_Left_Form'
 import { Form as RightForm }  from './POS_Right_Form'
 
 class POS extends Component{
-    // constructor() {
-    //     super()
-    // }
+    
     render() {
         
         return (
